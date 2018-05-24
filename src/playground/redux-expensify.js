@@ -163,13 +163,13 @@ const expenseTwo = store.dispatch(addExpense({ description: 'Coffee', amount: 30
 // store.dispatch(removeExpense({ id: expenseOne.expense.id }));
 // store.dispatch(editExpense(expenseTwo.expense.id, { amount: 500 }));
 
-store.dispatch(setTextFilter('ffe'));
+store.dispatch(setTextFilter('cof'));
 // store.dispatch(setTextFilter());
 
 // store.dispatch(sortByAmount());
 // store.dispatch(sortByDate());
 
-// store.dispatch(setStartDate(0)); // startDate 125
+// store.dispatch(setStartDate(125)); // startDate 125
 // store.dispatch(setStartDate()); // startDate undefined
 // store.dispatch(setEndDate(999)); // endDate 1250
 
