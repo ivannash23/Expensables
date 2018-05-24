@@ -182,7 +182,7 @@ const expenseTwo = store.dispatch(
 // store.dispatch(setTextFilter("cof"));
 // store.dispatch(setTextFilter());
 
-store.dispatch(sortByAmount());
+// store.dispatch(sortByAmount());
 // store.dispatch(sortByDate());
 
 // store.dispatch(setStartDate(125)); // startDate 125
